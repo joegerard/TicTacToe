@@ -1,0 +1,44 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	margin: 20px 0;
+}
+
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 600px;
+	margin: auto;
+}
+
+.square {
+	width: 30%;
+	height: 0;
+  padding-top: 10%;
+	padding-bottom: 30%;
+	background-color: #fff;
+	margin: 1.66%;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 72px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+
+}
+
+.square:hover {
+	background-color: #ddd;
+}
