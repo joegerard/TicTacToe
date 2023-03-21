@@ -1,5 +1,6 @@
 const squares = document.querySelectorAll('.square');
-let currentPlayer = 'X';
+let currentPlayer = 'Y';
+
 
 squares.forEach((square) => {
 	square.addEventListener('click', handleClick);
